@@ -1,0 +1,68 @@
+#contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+}
+ 
+input{
+    background: grey
+}
+#school-photo{
+    width:100%;
+    height:100%;
+}
+#map{
+    padding: 10px 0px 10px 20px;
+}
+#auditorium_img{
+    padding: 10px 10px 10px 10px;
+    height: 450px;
+    width:500px;
+}
+#library_img{
+    padding: 10px 10px 10px 10px;
+    height: 450px;
+    width:500px;
+}
+#greenry_img{
+    padding: 10px 10px 10px 10px;
+    height: 450px;
+    width:500px;
+}
+#field_img{
+    padding: 10px 10px 10px 10px;
+    height: 450px;
+    width:500px;
+}
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+}
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+.travel_mainDiv img{
+    width: 100%;
+    height: 300px;
+}
+.travel_mainDiv hr{
+    width: 100%;
+}
+.travel_mainDiv h5, .travel_mainDiv p{
+    margin-left: 20px;      
+}
